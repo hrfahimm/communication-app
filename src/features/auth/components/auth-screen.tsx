@@ -1,21 +1,22 @@
 'use client'
-import { useState } from 'react'
-import { SignInFLow } from '../types'
+import React, { useState } from 'react';
+import { SignInFLow } from "../types"
 
-const AuthScreen = () => {
+export const AuthScreen = () => {
 
-    const [state, setState] = useState<SignInFLow>('signIn')
+
+    const [date, setDate] = useState<SignInFLow>('signIn')
 
 
 
     return (
 
-        <div className='h-full flex items-center justify-center bg-[#5c3B58]'>
-            Auth   Screen
+        <div className='h-full flex text-4xl  items-center justify-center bg-[#5C3B58]'>
+
+
+            Auth
+
+
         </div>
-
-
     )
 }
-
-export default AuthScreen
