@@ -9,14 +9,12 @@ export const AuthScreen = () => {
 
 
 
-    return (
-
-        <div className='h-full flex text-4xl  items-center justify-center bg-[#5C3B58]'>
+    return (<div className='h-full flex text-4xl  items-center justify-center bg-[#5C3B58]'>
 
 
-            Auth
+        Auth
 
 
-        </div>
+    </div>
     )
 }
